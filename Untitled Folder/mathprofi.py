@@ -13,5 +13,14 @@ import numpy as np
     #except ZeroDivisionError:
         #print('Function is not defined')
 
-for i in range (2, 10):
-    print(np.sqrt(4 * i - 8))
+#for i in range (2, 10):
+    #print(np.sqrt(4 * i - 8))
+
+#for x in range(-5, 5):
+    #print(f'x = {x}')
+    #print(f'y = {- 1 - pow(x, 3)}')
+
+for x in range(-10, 10):
+    print(f'x = {x}')
+    print(f'y = {- (x ** 2)}')
+
